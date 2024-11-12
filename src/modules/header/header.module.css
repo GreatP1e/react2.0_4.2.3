@@ -1,0 +1,18 @@
+.center {
+      transform: translateX(50%);
+}
+
+.dot {
+      position: relative;
+}
+
+.dot::after {
+      content: '';
+      width: 6px;
+      height: 6px;
+      position: absolute;
+      right: -15px;
+      top: calc(50% - 3px);
+      background-color: var(--mantine-color-myIndigo-7);
+      border-radius: 50%;
+}

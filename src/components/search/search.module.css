@@ -1,0 +1,5 @@
+.input {
+      background-color: var(--mantine-color-myBackgroundColor);
+      border: 1px solid var(--mantine-color-myGrey-2);
+      border-radius: 8px;
+}
